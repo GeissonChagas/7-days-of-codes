@@ -1,0 +1,26 @@
+.cargos{
+	margin-left: 20em;
+}
+
+.cargos__titulo{
+	font-weight: 500;
+	font-size: 20px;
+	margin: 2em 0 4em 0;
+}
+
+.cargos__titulo2{
+	font-size: 18px;
+	font-weight: 500;
+	color: var(--preto);
+	margin-left: 2em;
+}
+
+.cargos__descrição{
+	display: inline-block;
+	margin: 0 2em;
+	color: var(--cinza);
+	font-size: 16px;
+	margin-bottom: 2em;
+
+
+}

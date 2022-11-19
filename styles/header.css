@@ -1,0 +1,64 @@
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+
+.cabeçalho__logo{
+    margin: 1.5em 4em;
+    padding: 0.9em 0 0.5em 0;
+    
+}
+
+.cabeçalho__titulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    display: inline;
+    vertical-align: top;
+    padding: 0.5em;
+
+}
+
+.cabeçalho__ancora{
+    color: var(--cinza);
+    text-decoration: none;
+    padding: 0.9em 1em; 
+    list-style-type: none;
+    display: inline-flex;
+    
+
+}
+
+.cabeçalho__login{
+    padding: 0 1em;
+}
+.cabeçalho__login--entrar{
+    color: var(--cinza);
+    text-decoration: none;
+    padding: 0 0.5em;
+  
+}
+
+.cabeçalho__login-cadastro{
+    margin: 0 4em;
+    padding: 1.5em 0 0.5em 0;
+
+}
+
+.cabeçalho__login--cadastrar{
+    color: var(--branco);
+    text-decoration: none;
+    padding: 0 1em;
+    background: var(--marsala);
+    border-radius: 5px;
+    height: 44px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    margin: 0 4em 0 0;
+    
+    
+}

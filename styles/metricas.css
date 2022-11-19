@@ -1,0 +1,35 @@
+.metricas{
+	display: flex;
+	text-align: left;
+	justify-content: space-around;
+	margin: auto;
+	
+}
+
+.metricas__item{
+	width: 25%;
+	margin: 0 4em;
+
+}
+
+.metricas__titulo{
+	color: var(--marsala);
+	font-size: 60px;
+	font-weight: 600;
+	margin: 0.5em 0 0.5em 0;
+
+
+}
+
+.metricas__subtitulo{
+	color: var(--preto);
+	font-size: 18px;
+	font-weight: 400;
+
+}
+
+.metricas__texto{
+	color: var(--cinza);
+	margin: 0 1em 0 0;
+
+}

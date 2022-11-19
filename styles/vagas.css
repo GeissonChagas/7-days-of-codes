@@ -1,0 +1,39 @@
+.area-vagas{
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	margin-top: 2em;
+
+
+}
+
+.area-vagas__titulo{
+	font-weight: 500;
+	color: var(--marsala);
+	margin-top: 5em;
+	background-color: var(--fundo-claro);
+	display: inline-flex;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 0.5em;
+
+}
+
+.area-vagas__subtitulo{
+	font-size: 36px;
+	font-weight: 600;
+	color: var(--preto);
+	margin-top: 1em;
+}
+
+.area-vagas__texto{
+	font-size: 20px;
+	font-weight: 400;
+	color: var(--cinza);
+
+}
+
+.area-vagas__imagem{
+	margin: 2em auto;
+	width: 90%;
+}

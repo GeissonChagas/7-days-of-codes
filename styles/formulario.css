@@ -1,0 +1,54 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background: #F9FAFB;
+    margin: 5em 0;
+    
+}
+
+.titulo__formulario{
+    color: var(--preto);
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.span__formulario{
+    color: var(--cinza);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.input-cadastro{
+    display: inline-flex;
+    margin: 2em auto;
+}
+
+.input-email{
+    height: 48px;
+    width: 360px;
+    border-color: var(--cinza) solid;
+    border-radius: 8px;
+    margin: 0 2em;
+
+}
+
+.cadastrar{
+    border: none;
+    border-radius: 8px;
+    background: var(--marsala);
+    color: var(--branco);
+    font-weight: 500;
+    height: 48px;
+    width: 116px;
+
+}
+
+.rodape{
+    color: var(--cinza);
+    font-size: 14px;
+    margin: 2em auto;
+    text-align: center;
+}
